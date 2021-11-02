@@ -1,0 +1,21 @@
+Task 1.HelloWorld
+public class Task1 {
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+    }
+}
+
+
+Task 2.圆的周长和面积
+import java.util.Scanner;
+public class Task2 {
+    public static void main(String[] args){
+        Scanner a = new Scanner(System.in);
+        int r=a.nextInt();
+        double area=0,c=0;
+        area=3.14*r*r;
+        c=2*3.14*r;
+        System.out.println("该圆的面积为："+area);
+        System.out.println("该圆的周长为："+c);
+    }
+}
